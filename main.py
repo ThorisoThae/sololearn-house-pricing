@@ -6,6 +6,5 @@ mean= (np.mean(data))
 dev= (np.std(data))
 low=(mean - dev)
 high =(mean + dev)
-count_1=[i for i in data if low < i and high > i]
-count_2= len([i for i in data if low < i and high > i])
-percen= (sum(count_1)/count_2)*100
+count= len([i for i in data if low < i and high > i])
+print((count/data.size)*100)
