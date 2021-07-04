@@ -1,6 +1,6 @@
 # sololearn-house-pricing
 
-summary
+Calculate percentage of houses that are within (range) one standard deviation from the mean.
 
 
 ## Getting Started
